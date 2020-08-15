@@ -1,0 +1,309 @@
+{
+    "errors": [],
+    "warnings": [],
+    "version": "4.44.1",
+    "hash": "395be68a83b6d1c25fa7",
+    "time": 943,
+    "builtAt": 1597486328959,
+    "publicPath": "",
+    "outputPath": "/github.com/mkusaka/babel-runtime-webpack/dist",
+    "assetsByChunkName": {
+        "main": [
+            "output.js",
+            "output.js.map"
+        ]
+    },
+    "assets": [
+        {
+            "name": "output.js",
+            "size": 1031,
+            "chunks": [
+                0
+            ],
+            "chunkNames": [
+                "main"
+            ],
+            "info": {
+                "minimized": true
+            },
+            "emitted": true
+        },
+        {
+            "name": "output.js.map",
+            "size": 5202,
+            "chunks": [
+                0
+            ],
+            "chunkNames": [
+                "main"
+            ],
+            "info": {
+                "development": true
+            },
+            "emitted": true
+        }
+    ],
+    "filteredAssets": 0,
+    "entrypoints": {
+        "main": {
+            "chunks": [
+                0
+            ],
+            "assets": [
+                "output.js",
+                "output.js.map"
+            ],
+            "children": {},
+            "childAssets": {}
+        }
+    },
+    "namedChunkGroups": {
+        "main": {
+            "chunks": [
+                0
+            ],
+            "assets": [
+                "output.js",
+                "output.js.map"
+            ],
+            "children": {},
+            "childAssets": {}
+        }
+    },
+    "chunks": [
+        {
+            "id": 0,
+            "rendered": true,
+            "initial": true,
+            "entry": true,
+            "size": 304,
+            "names": [
+                "main"
+            ],
+            "files": [
+                "output.js",
+                "output.js.map"
+            ],
+            "hash": "708e62e90a3e8adf4955",
+            "siblings": [],
+            "parents": [],
+            "children": [],
+            "childrenByOrder": {},
+            "origins": [
+                {
+                    "module": "",
+                    "moduleIdentifier": "",
+                    "moduleName": "",
+                    "loc": "main",
+                    "request": "/github.com/mkusaka/babel-runtime-webpack/index.js",
+                    "reasons": []
+                }
+            ]
+        }
+    ],
+    "modules": [
+        {
+            "id": 0,
+            "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js 46c5e2195501465b1d9a1a771277609f",
+            "name": "./index.js + 2 modules",
+            "index": 0,
+            "index2": 2,
+            "size": 304,
+            "cacheable": true,
+            "built": true,
+            "optional": false,
+            "prefetched": false,
+            "chunks": [
+                0
+            ],
+            "issuer": null,
+            "issuerId": null,
+            "issuerName": null,
+            "issuerPath": null,
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "assets": [],
+            "reasons": [
+                {
+                    "moduleId": null,
+                    "moduleIdentifier": null,
+                    "module": null,
+                    "moduleName": null,
+                    "type": "single entry",
+                    "userRequest": "/github.com/mkusaka/babel-runtime-webpack/index.js",
+                    "loc": "main"
+                }
+            ],
+            "usedExports": true,
+            "providedExports": [],
+            "optimizationBailout": [],
+            "depth": 0,
+            "modules": [
+                {
+                    "id": null,
+                    "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                    "name": "./index.js",
+                    "index": 0,
+                    "index2": 2,
+                    "size": 88,
+                    "cacheable": true,
+                    "built": true,
+                    "optional": false,
+                    "prefetched": false,
+                    "chunks": [],
+                    "issuer": null,
+                    "issuerId": null,
+                    "issuerName": null,
+                    "issuerPath": null,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleId": null,
+                            "moduleIdentifier": null,
+                            "module": null,
+                            "moduleName": null,
+                            "type": "single entry",
+                            "userRequest": "/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "loc": "main"
+                        }
+                    ],
+                    "usedExports": true,
+                    "providedExports": [],
+                    "optimizationBailout": [
+                        "ModuleConcatenation bailout: Module is an entry point"
+                    ],
+                    "depth": 0,
+                    "source": "import { Bar } from \"./src/bar\";\nimport { Foo } from \"./src/foo\";\nconsole.log(Bar, Foo);"
+                },
+                {
+                    "id": null,
+                    "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/src/bar.js",
+                    "name": "./src/bar.js",
+                    "index": 1,
+                    "index2": 0,
+                    "size": 162,
+                    "cacheable": true,
+                    "built": true,
+                    "optional": false,
+                    "prefetched": false,
+                    "chunks": [],
+                    "issuer": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                    "issuerId": null,
+                    "issuerName": "./index.js",
+                    "issuerPath": [
+                        {
+                            "id": null,
+                            "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "name": "./index.js"
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleId": null,
+                            "moduleIdentifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "module": "./index.js",
+                            "moduleName": "./index.js",
+                            "type": "harmony side effect evaluation",
+                            "userRequest": "./src/bar",
+                            "loc": "1:0-32"
+                        },
+                        {
+                            "moduleId": null,
+                            "moduleIdentifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "module": "./index.js",
+                            "moduleName": "./index.js",
+                            "type": "harmony import specifier",
+                            "userRequest": "./src/bar",
+                            "loc": "3:12-15"
+                        }
+                    ],
+                    "usedExports": [
+                        "Bar"
+                    ],
+                    "providedExports": [
+                        "Bar",
+                        "Baz",
+                        "default"
+                    ],
+                    "optimizationBailout": [],
+                    "depth": 1,
+                    "source": "export const Bar = { ...{ ...{\n      t: 2\n    }\n  }\n};\nexport const Baz = { ...{ ...{\n      u: 7\n    }\n  }\n};\nexport default { ...{ ...{\n      nya: 7\n    }\n  }\n};"
+                },
+                {
+                    "id": null,
+                    "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/src/foo.js",
+                    "name": "./src/foo.js",
+                    "index": 2,
+                    "index2": 1,
+                    "size": 54,
+                    "cacheable": true,
+                    "built": true,
+                    "optional": false,
+                    "prefetched": false,
+                    "chunks": [],
+                    "issuer": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                    "issuerId": null,
+                    "issuerName": "./index.js",
+                    "issuerPath": [
+                        {
+                            "id": null,
+                            "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "name": "./index.js"
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleId": null,
+                            "moduleIdentifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "module": "./index.js",
+                            "moduleName": "./index.js",
+                            "type": "harmony side effect evaluation",
+                            "userRequest": "./src/foo",
+                            "loc": "2:0-32"
+                        },
+                        {
+                            "moduleId": null,
+                            "moduleIdentifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "module": "./index.js",
+                            "moduleName": "./index.js",
+                            "type": "harmony import specifier",
+                            "userRequest": "./src/foo",
+                            "loc": "3:17-20"
+                        }
+                    ],
+                    "usedExports": [
+                        "Foo"
+                    ],
+                    "providedExports": [
+                        "Foo"
+                    ],
+                    "optimizationBailout": [],
+                    "depth": 1,
+                    "source": "export const Foo = { ...{ ...{\n      t: 3\n    }\n  }\n};"
+                }
+            ],
+            "filteredModules": 0
+        }
+    ],
+    "filteredModules": 0,
+    "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+            "entries": [],
+            "filteredEntries": 2,
+            "debug": false
+        }
+    },
+    "children": []
+}

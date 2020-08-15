@@ -5,7 +5,7 @@ const TerserWebpackPlugin = require("terser-webpack-plugin");
  * @returns import('webpack').Configuration
  */
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: path.resolve(__dirname, "index.js"),
   devtool: "source-map",
   resolve: {
@@ -23,9 +23,10 @@ module.exports = {
       },
     ],
   },
+  stats: "detailed",
   optimization: {
     usedExports: true,
-    // minimize: true,
+    minimize: true,
     minimizer: [
       new TerserWebpackPlugin({
         cache: true,
