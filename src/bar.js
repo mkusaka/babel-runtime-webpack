@@ -17,7 +17,7 @@ export const Baz = {
 export default {
   ...{
     ...{
-      nya: 7
-    }
-  }
-}
+      nya: 7,
+    },
+  },
+};

@@ -2,9 +2,9 @@
     "errors": [],
     "warnings": [],
     "version": "4.44.1",
-    "hash": "395be68a83b6d1c25fa7",
-    "time": 943,
-    "builtAt": 1597486328959,
+    "hash": "7e3a514418160a6ecd03",
+    "time": 1297,
+    "builtAt": 1597569199220,
     "publicPath": "",
     "outputPath": "/github.com/mkusaka/babel-runtime-webpack/dist",
     "assetsByChunkName": {
@@ -30,7 +30,7 @@
         },
         {
             "name": "output.js.map",
-            "size": 5202,
+            "size": 5328,
             "chunks": [
                 0
             ],
@@ -76,7 +76,7 @@
             "rendered": true,
             "initial": true,
             "entry": true,
-            "size": 304,
+            "size": 384,
             "names": [
                 "main"
             ],
@@ -84,7 +84,7 @@
                 "output.js",
                 "output.js.map"
             ],
-            "hash": "708e62e90a3e8adf4955",
+            "hash": "46650eea5d128525dba4",
             "siblings": [],
             "parents": [],
             "children": [],
@@ -104,11 +104,11 @@
     "modules": [
         {
             "id": 0,
-            "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js 46c5e2195501465b1d9a1a771277609f",
-            "name": "./index.js + 2 modules",
+            "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js 1c76fe3061fc5c7b2446456313aa2215",
+            "name": "./index.js + 3 modules",
             "index": 0,
-            "index2": 2,
-            "size": 304,
+            "index2": 3,
+            "size": 384,
             "cacheable": true,
             "built": true,
             "optional": false,
@@ -145,8 +145,8 @@
                     "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
                     "name": "./index.js",
                     "index": 0,
-                    "index2": 2,
-                    "size": 88,
+                    "index2": 3,
+                    "size": 122,
                     "cacheable": true,
                     "built": true,
                     "optional": false,
@@ -177,7 +177,7 @@
                         "ModuleConcatenation bailout: Module is an entry point"
                     ],
                     "depth": 0,
-                    "source": "import { Bar } from \"./src/bar\";\nimport { Foo } from \"./src/foo\";\nconsole.log(Bar, Foo);"
+                    "source": "import { Bar } from \"./src/bar\";\nimport { Baaz } from \"./src/baz\";\nimport { Foo } from \"./src/foo\";\nconsole.log(Bar, Foo);"
                 },
                 {
                     "id": null,
@@ -222,7 +222,7 @@
                             "moduleName": "./index.js",
                             "type": "harmony import specifier",
                             "userRequest": "./src/bar",
-                            "loc": "3:12-15"
+                            "loc": "4:12-15"
                         }
                     ],
                     "usedExports": [
@@ -239,10 +239,55 @@
                 },
                 {
                     "id": null,
-                    "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/src/foo.js",
-                    "name": "./src/foo.js",
+                    "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/src/baz.js",
+                    "name": "./src/baz.js",
                     "index": 2,
                     "index2": 1,
+                    "size": 46,
+                    "cacheable": true,
+                    "built": true,
+                    "optional": false,
+                    "prefetched": false,
+                    "chunks": [],
+                    "issuer": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                    "issuerId": null,
+                    "issuerName": "./index.js",
+                    "issuerPath": [
+                        {
+                            "id": null,
+                            "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "name": "./index.js"
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleId": null,
+                            "moduleIdentifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
+                            "module": "./index.js",
+                            "moduleName": "./index.js",
+                            "type": "harmony side effect evaluation",
+                            "userRequest": "./src/baz",
+                            "loc": "2:0-33"
+                        }
+                    ],
+                    "usedExports": false,
+                    "providedExports": [
+                        "Baaz"
+                    ],
+                    "optimizationBailout": [],
+                    "depth": 1,
+                    "source": "export const Baaz = { ...{\n    test: 11\n  }\n};"
+                },
+                {
+                    "id": null,
+                    "identifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/src/foo.js",
+                    "name": "./src/foo.js",
+                    "index": 3,
+                    "index2": 2,
                     "size": 54,
                     "cacheable": true,
                     "built": true,
@@ -271,7 +316,7 @@
                             "moduleName": "./index.js",
                             "type": "harmony side effect evaluation",
                             "userRequest": "./src/foo",
-                            "loc": "2:0-32"
+                            "loc": "3:0-32"
                         },
                         {
                             "moduleId": null,
@@ -280,7 +325,7 @@
                             "moduleName": "./index.js",
                             "type": "harmony import specifier",
                             "userRequest": "./src/foo",
-                            "loc": "3:17-20"
+                            "loc": "4:17-20"
                         }
                     ],
                     "usedExports": [

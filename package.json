@@ -22,6 +22,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack --stats --json",
+    "statsJson": "webpack --stats --json > stats.json"
   }
 }
