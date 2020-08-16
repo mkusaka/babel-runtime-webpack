@@ -2,9 +2,9 @@
     "errors": [],
     "warnings": [],
     "version": "4.44.1",
-    "hash": "7e3a514418160a6ecd03",
-    "time": 1297,
-    "builtAt": 1597569199220,
+    "hash": "a24d4d58c790ac93e4ad",
+    "time": 1388,
+    "builtAt": 1597569596160,
     "publicPath": "",
     "outputPath": "/github.com/mkusaka/babel-runtime-webpack/dist",
     "assetsByChunkName": {
@@ -16,7 +16,7 @@
     "assets": [
         {
             "name": "output.js",
-            "size": 1031,
+            "size": 1054,
             "chunks": [
                 0
             ],
@@ -30,7 +30,7 @@
         },
         {
             "name": "output.js.map",
-            "size": 5328,
+            "size": 5348,
             "chunks": [
                 0
             ],
@@ -76,7 +76,7 @@
             "rendered": true,
             "initial": true,
             "entry": true,
-            "size": 384,
+            "size": 431,
             "names": [
                 "main"
             ],
@@ -84,7 +84,7 @@
                 "output.js",
                 "output.js.map"
             ],
-            "hash": "46650eea5d128525dba4",
+            "hash": "516d28f29ac128fb9c7f",
             "siblings": [],
             "parents": [],
             "children": [],
@@ -108,7 +108,7 @@
             "name": "./index.js + 3 modules",
             "index": 0,
             "index2": 3,
-            "size": 384,
+            "size": 431,
             "cacheable": true,
             "built": true,
             "optional": false,
@@ -217,6 +217,24 @@
                         },
                         {
                             "moduleId": null,
+                            "moduleIdentifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/src/foo.js",
+                            "module": "./src/foo.js",
+                            "moduleName": "./src/foo.js",
+                            "type": "harmony side effect evaluation",
+                            "userRequest": "./bar",
+                            "loc": "1:0-28"
+                        },
+                        {
+                            "moduleId": null,
+                            "moduleIdentifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/src/foo.js",
+                            "module": "./src/foo.js",
+                            "moduleName": "./src/foo.js",
+                            "type": "harmony import specifier",
+                            "userRequest": "./bar",
+                            "loc": "2:12-15"
+                        },
+                        {
+                            "moduleId": null,
                             "moduleIdentifier": "/github.com/mkusaka/babel-runtime-webpack/node_modules/babel-loader/lib/index.js!/github.com/mkusaka/babel-runtime-webpack/index.js",
                             "module": "./index.js",
                             "moduleName": "./index.js",
@@ -226,7 +244,8 @@
                         }
                     ],
                     "usedExports": [
-                        "Bar"
+                        "Bar",
+                        "Baz"
                     ],
                     "providedExports": [
                         "Bar",
@@ -288,7 +307,7 @@
                     "name": "./src/foo.js",
                     "index": 3,
                     "index2": 2,
-                    "size": 54,
+                    "size": 101,
                     "cacheable": true,
                     "built": true,
                     "optional": false,
@@ -336,7 +355,7 @@
                     ],
                     "optimizationBailout": [],
                     "depth": 1,
-                    "source": "export const Foo = { ...{ ...{\n      t: 3\n    }\n  }\n};"
+                    "source": "import { Baz } from \"./bar\";\nconsole.log(Baz);\nexport const Foo = { ...{ ...{\n      t: 3\n    }\n  }\n};"
                 }
             ],
             "filteredModules": 0
