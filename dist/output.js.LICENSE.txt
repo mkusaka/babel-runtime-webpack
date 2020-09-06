@@ -1,0 +1,37 @@
+/*! ./bar */
+
+/*! ./src/bar */
+
+/*! ./src/baz */
+
+/*! ./src/foo */
+
+/*! all exports used */
+
+/*! exports provided: Baaz */
+
+/*! exports provided: Bar, FooBar, Baz, default */
+
+/*! exports provided: Foo */
+
+/*! exports used: Bar, Baz */
+
+/*! exports used: Foo */
+
+/*! no exports provided */
+
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+
+/*!********************!*\
+  !*** ./src/bar.js ***!
+  \********************/
+
+/*!********************!*\
+  !*** ./src/baz.js ***!
+  \********************/
+
+/*!********************!*\
+  !*** ./src/foo.js ***!
+  \********************/

@@ -6,6 +6,12 @@ export const Bar = {
   },
 };
 
+const FooBar = {};
+
+export {
+  FooBar
+}
+
 export const Baz = {
   ...{
     ...{
