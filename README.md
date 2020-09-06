@@ -1,3 +1,3 @@
-# babel-runtime-webpack
+# webpack-stats-note
 
 memo
