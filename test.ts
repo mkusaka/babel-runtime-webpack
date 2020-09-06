@@ -18,6 +18,8 @@ const content = JSON.parse(
     ExportNamedDeclaration: (path) => {
       // if unusedExports incldue this node name, then remove
       console.log(path.node)
+      // if unusedExport detected, remove that declaration(export) from via path.remove()
+      // https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md#removing-a-node
     },
     ExportDefaultDeclaration: (path) => {
       // if unusedExports incldue this node name, then remove
@@ -27,3 +29,5 @@ const content = JSON.parse(
   const generated = generator(parsed).code;
   fs.writeFileSync(targetPath, generated);
 });
+
+// ts-node -T -O '{"module": "commonjs"}' test.tsx
